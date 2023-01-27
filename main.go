@@ -71,6 +71,7 @@ func main() {
         "clear": clear,
         "clearGlobal": clearGlobal,
         "changeSign": changeSign,
+        "quit": gtk.MainQuit,
     }
 
     for i := 0; i < 10; i++ {
